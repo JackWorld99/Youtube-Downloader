@@ -43,7 +43,7 @@ This tool is a simple **Windows batch script** that automates the YouTube downlo
 
 ```plaintext
 YouTube-Downloader/
-├── yt-Downloader.bat    ← Main script
+├── yt-downloader.bat    ← Main script
 ├── yt-dlp.exe           ← YouTube downloader core
 ├── ffmpeg.exe           ← Video/audio merger & converter
 └── Downloads/           ← Output folder
@@ -58,11 +58,11 @@ YouTube-Downloader/
 1. Download or clone this repository.  
 2. Place the following files together in the same directory:
    ```plaintext
-   YouTubeDownloader.bat
+   yt-downloader.bat 
    yt-dlp.exe
    ffmpeg.exe
    ```
-3. Double-click **yt-Downloader.bat** to start.  
+3. Double-click **yt-downloader.bat** to start.  
 4. Follow on-screen instructions:
    ```plaintext
    [1] Download music (MP3)
